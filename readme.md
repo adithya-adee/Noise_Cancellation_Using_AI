@@ -7,6 +7,12 @@ This project implements an enhanced noise reduction model using PyTorch, focusin
 - **Noise Reduction Model**: Uses a deep learning model with STFT, MFCC features, and enhanced spectral reconstruction.
 - **Training and Evaluation**: Supports training on noisy and clean audio datasets with custom loss functions to preserve spectral and temporal fidelity.
 
+## Techniques Implemented
+
+- **Spectral Gating**: A noise reduction technique used for audio filtering
+- **Noise Reduction Model**: A custom deep learning model, **NoiseReducer**, tailored for denoising tasks
+- **Evaluation Metrics**: Signal-to-Noise Ratio (SNR) and Peak Signal-to-Noise Ratio (PSNR) for model performance measurement
+
 ## Technologies Used
 
 - **Python**: Core programming language for model implementation and training.
